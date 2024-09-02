@@ -1,6 +1,3 @@
-trigger:
-- main  # Adjust this to your desired branch
-
 pool:
   name: 'rollout'
 
