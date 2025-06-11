@@ -1,5 +1,5 @@
 pool:
-  name: 'selfagent'
+  name: 'vamsipriya'
 
 stages:
 - stage: Deploy
@@ -11,8 +11,8 @@ stages:
       inputs:
         connectionType: 'Kubernetes Service Connection'
         #azureSubscription: 'k8sconnection'
-        kubernetesServiceEndpoint: 'k8sconnection'
-        azureResourceGroup: 'dev-env'
+        kubernetesServiceEndpoint: 'vamsipriya_k8s'
+        azureResourceGroup: 'vamsipriya_RG'
         kubernetesCluster: 'dev-cluster'
         namespace: 'three-tier'
         command: 'apply'
