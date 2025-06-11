@@ -1,5 +1,5 @@
 pool:
-  name: 'rollout'
+  name: 'selfagent'
 
 stages:
 - stage: Deploy
